@@ -444,7 +444,7 @@ namespace PSIntegrity
                     {
                         aceFlags = AceFlags.None;
                         accessMask = MandatoryLabelMask.None;
-                    } 
+                    }
 
                     isDirty = true;
                 }
@@ -703,7 +703,7 @@ namespace PSIntegrity
         NoReadUp = 0x2,
         NoExecuteUp = 0x4,
     }
-}  
+}
 '@
 
 

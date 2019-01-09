@@ -131,7 +131,7 @@ Function Set-IntegrityLabel {
         } else {
             # If we don't do the ACE change, we refresh to get the original values back
             $InputObject.Refresh()
-        }   
+        }
     }
 
     if ($PassThru) {
