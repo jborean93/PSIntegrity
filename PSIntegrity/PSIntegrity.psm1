@@ -712,7 +712,7 @@ namespace PSIntegrity
 # the Public and Private functions into the 1 psm1 file for faster importing.
 
 if (Test-Path -LiteralPath $PSScriptRoot\Public) {
-    $public = @( Get-ChildItem -Path $PSScriptRoot\Public\*.ps1 -ErrorAction SilentlyContinue )    
+    $public = @( Get-ChildItem -Path $PSScriptRoot\Public\*.ps1 -ErrorAction SilentlyContinue )
 } else {
     $public = @()
 }
